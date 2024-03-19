@@ -1,0 +1,22 @@
+Solução exercício de programação - Cálculo do IMC
+
+Código + comentário usado no exercício:
+
+nome = 'Yago Bryan'
+altura = 1.70
+peso = 54
+imc = peso / (altura * altura)
+
+linha_1 = f'{nome} tem {altura:.2f} de altura'
+linha_2 = f'pesa {peso} quilos e seu imc é'
+linha_3 = f'{imc:.2f}'
+
+# esse 'f' no começo da string tem a função de habilitar as variáveis
+# e para usar as variáveis dentro do texto, vc envolve elas em {} = chaves
+# o '.2f' são as casas decimais, podendo botar 1.f, 2.f... 
+# caso vc quiser mudar o ponto para vírgula é só botar ":,." e a casa decimal que vc quer.
+# "f-strings" = formatação
+
+print(linha_1)
+print(linha_2)
+print(linha_3)
